@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ## [Unreleased] - TBD
 
+## [2.1.2] - 2024-05-06
+### Changed
+- Exclude the release pull request from the PR validations (props [@iamdharmesh](https://github.com/iamdharmesh), [@dkotter](https://github.com/dkotter) via [#119](https://github.com/10up/action-repo-automator/pull/119)).
+- Bump `actions/upload-artifact` from v3 to v4 (props [@iamdharmesh](https://github.com/iamdharmesh), [@jeffpaul](https://github.com/jeffpaul) via [#121](https://github.com/10up/action-repo-automator/pull/121)).
+
+### Security
+- Bump `undici` from 5.26.4 to 5.28.4 (props [@dependabot[bot]](https://github.com/apps/dependabot), [@iamdharmesh](https://github.com/iamdharmesh) via [#115](https://github.com/10up/action-repo-automator/pull/115), [#120](https://github.com/10up/action-repo-automator/pull/120)).
+
 ## [2.1.1] - 2024-02-29
 ### Changed
 - Disabled dependabot version updates for GitHub Actions and npm dependencies (props [@iamdharmesh](https://github.com/iamdharmesh), [@jeffpaul](https://github.com/jeffpaul) via [#113](https://github.com/10up/action-repo-automator/pull/113))
@@ -65,6 +73,7 @@ All notable changes to this project will be documented in this file, per [the Ke
 - Initial project release 🎉
 
 [Unreleased]: https://github.com/10up/action-repo-automator/compare/trunk...develop
+[2.1.2]: https://github.com/10up/action-repo-automator/compare/2.1.1..2.1.2
 [2.1.1]: https://github.com/10up/action-repo-automator/compare/2.1.0..2.1.1
 [2.1.0]: https://github.com/10up/action-repo-automator/compare/2.0.0..2.1.0
 [2.0.0]: https://github.com/10up/action-repo-automator/compare/1.0.1..2.0.0
