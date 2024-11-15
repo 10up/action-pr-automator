@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ## [Unreleased] - TBD
 
+## [2.1.3] - 2024-11-18
+### Changed
+- Bump Node.js version from v16 to v20 (props [@iamdharmesh](https://github.com/iamdharmesh), [@dkotter](https://github.com/dkotter) via [#125](https://github.com/10up/action-repo-automator/pull/125)).
+- Bump `@actions/core` from 1.10.1 to 1.11.0, `@octokit/action` from 6.0.6 to 7.0.0 and `@vercel/ncc` from 0.38.1 to 0.38.2 (props [@iamdharmesh](https://github.com/iamdharmesh), [@dkotter](https://github.com/dkotter) via [#125](https://github.com/10up/action-repo-automator/pull/125)).
+
 ## [2.1.2] - 2024-05-06
 ### Changed
 - Exclude the release pull request from the PR validations (props [@iamdharmesh](https://github.com/iamdharmesh), [@dkotter](https://github.com/dkotter) via [#119](https://github.com/10up/action-repo-automator/pull/119)).
@@ -73,6 +78,7 @@ All notable changes to this project will be documented in this file, per [the Ke
 - Initial project release 🎉
 
 [Unreleased]: https://github.com/10up/action-repo-automator/compare/trunk...develop
+[2.1.3]: https://github.com/10up/action-repo-automator/compare/2.1.2..2.1.3
 [2.1.2]: https://github.com/10up/action-repo-automator/compare/2.1.1..2.1.2
 [2.1.1]: https://github.com/10up/action-repo-automator/compare/2.1.0..2.1.1
 [2.1.0]: https://github.com/10up/action-repo-automator/compare/2.0.0..2.1.0
